@@ -1,0 +1,65 @@
+body{
+    margin: auto;
+    padding: 150px;
+}
+
+body::after{
+    background: url(/chatroomapplication/image/bubbles.jpg);
+    content: "";
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: 3px;
+    padding: auto;
+}
+.container{
+    max-width: 600px;
+}
+.btn{
+    background: #9deedf;
+    color:black;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.btn:hover{
+    position: relative;
+    top: -1.5px;
+}
+
+.username{
+    font-weight: bold;
+}
+.time{
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-mssg{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.chat-text{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
